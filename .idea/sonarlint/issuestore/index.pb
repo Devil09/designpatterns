@@ -45,3 +45,5 @@ c
 3src/com/company/designpatterns/factory/Windows.java,9/6/969b8331a60a190f5ba938e30ba64178737740f3
 p
 @src/com/company/designpatterns/penguindecorator/PenguinMain.java,4/5/45991f566c5b8403b8978eef39451bd851fd68c2
+l
+<src/com/company/designpatterns/penguindecorator/Penguin.java,a/f/af7adb6a9cf0916fdf6d5287b25a6cfc7faad196
