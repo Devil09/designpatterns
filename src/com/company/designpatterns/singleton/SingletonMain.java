@@ -5,8 +5,18 @@ import com.company.designpatterns.factory.OperatingSystemFactory;
 
 public class SingletonMain {
 
-    public static void main(String a[]){
+    private static SingletonMain obj;
 
-        RestAPI restAPI = RestAPI.getInstance();
+    private SingletonMain() {
+
+    }
+
+    public static SingletonMain getInstance(){
+
+        if (obj==null){
+            obj = new SingletonMain();
+        }
+
+        return obj;
     }
 }
